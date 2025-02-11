@@ -1,0 +1,122 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
+extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (void);
+extern void PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989 (void);
+extern void PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1 (void);
+extern void PlayerController_CollectPill_m843B9E1160A389DB93346836E85B64F217E2DCEA (void);
+extern void PlayerController_TakeDamage_mF7705FF4DE1A583AF2495B13F961A5111041D317 (void);
+extern void PlayerController_RotateWallSmoothly_m748C082EFF621C5842E299FE6D41DB8890B332F3 (void);
+extern void PlayerController_UpdateHealthUI_m6A95F01BFF206289D1C14E32D65C4811BB8F8F95 (void);
+extern void PlayerController_GameOver_mD882D9359CF176F373469C979D9ED9C300723315 (void);
+extern void PlayerController_Victory_m803C80B11FE1E9022AAB276883B90E8F15B4E3B4 (void);
+extern void PlayerController_RestartGame_m59D8E0F988C8A3A6F5BE05265AFA127F055DAFB0 (void);
+extern void PlayerController_MoveWallSmoothly_m7CA435DB717D3EF656E044325746B6426385ADCC (void);
+extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
+extern void U3CMoveWallSmoothlyU3Ed__24__ctor_mF3D1E35EC9E58E872DF7D4B452B908E60DF8EFEF (void);
+extern void U3CMoveWallSmoothlyU3Ed__24_System_IDisposable_Dispose_m410CACDE1CD3A73E75B7B57EF2AAE5C932B81006 (void);
+extern void U3CMoveWallSmoothlyU3Ed__24_MoveNext_m31DBDE20A96CBE5C426F3877F41DB226956F049F (void);
+extern void U3CMoveWallSmoothlyU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m83D9142754482B3727504C4264570534A157DDD5 (void);
+extern void U3CMoveWallSmoothlyU3Ed__24_System_Collections_IEnumerator_Reset_m5555E78AE47F5F1275A5F8401FFACAC67E553A90 (void);
+extern void U3CMoveWallSmoothlyU3Ed__24_System_Collections_IEnumerator_get_Current_m93C7E1A4D87CCDA71BDF92F8A9A059737B724EE5 (void);
+extern void U3CRotateWallSmoothlyU3Ed__18__ctor_m235AEB8884F8113176525A4EEA82D98CEABECED4 (void);
+extern void U3CRotateWallSmoothlyU3Ed__18_System_IDisposable_Dispose_mA31913B1691C67AF4E0D97C3D2D12999FBEC9484 (void);
+extern void U3CRotateWallSmoothlyU3Ed__18_MoveNext_mC7F004F9046C046354CB1A5B2FB68CDFD5A0FC3F (void);
+extern void U3CRotateWallSmoothlyU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m56F6B7B11BF359158A43B7BAAE0CBA52C1377745 (void);
+extern void U3CRotateWallSmoothlyU3Ed__18_System_Collections_IEnumerator_Reset_m651AAD850EA14C3CA495CF52E1D9F10F4C45EFDA (void);
+extern void U3CRotateWallSmoothlyU3Ed__18_System_Collections_IEnumerator_get_Current_m2A17B8D9C64B32CEBF322D80584849BFB3A86C8D (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[27] = 
+{
+	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
+	PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33,
+	PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989,
+	PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1,
+	PlayerController_CollectPill_m843B9E1160A389DB93346836E85B64F217E2DCEA,
+	PlayerController_TakeDamage_mF7705FF4DE1A583AF2495B13F961A5111041D317,
+	PlayerController_RotateWallSmoothly_m748C082EFF621C5842E299FE6D41DB8890B332F3,
+	PlayerController_UpdateHealthUI_m6A95F01BFF206289D1C14E32D65C4811BB8F8F95,
+	PlayerController_GameOver_mD882D9359CF176F373469C979D9ED9C300723315,
+	PlayerController_Victory_m803C80B11FE1E9022AAB276883B90E8F15B4E3B4,
+	PlayerController_RestartGame_m59D8E0F988C8A3A6F5BE05265AFA127F055DAFB0,
+	PlayerController_MoveWallSmoothly_m7CA435DB717D3EF656E044325746B6426385ADCC,
+	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
+	U3CMoveWallSmoothlyU3Ed__24__ctor_mF3D1E35EC9E58E872DF7D4B452B908E60DF8EFEF,
+	U3CMoveWallSmoothlyU3Ed__24_System_IDisposable_Dispose_m410CACDE1CD3A73E75B7B57EF2AAE5C932B81006,
+	U3CMoveWallSmoothlyU3Ed__24_MoveNext_m31DBDE20A96CBE5C426F3877F41DB226956F049F,
+	U3CMoveWallSmoothlyU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m83D9142754482B3727504C4264570534A157DDD5,
+	U3CMoveWallSmoothlyU3Ed__24_System_Collections_IEnumerator_Reset_m5555E78AE47F5F1275A5F8401FFACAC67E553A90,
+	U3CMoveWallSmoothlyU3Ed__24_System_Collections_IEnumerator_get_Current_m93C7E1A4D87CCDA71BDF92F8A9A059737B724EE5,
+	U3CRotateWallSmoothlyU3Ed__18__ctor_m235AEB8884F8113176525A4EEA82D98CEABECED4,
+	U3CRotateWallSmoothlyU3Ed__18_System_IDisposable_Dispose_mA31913B1691C67AF4E0D97C3D2D12999FBEC9484,
+	U3CRotateWallSmoothlyU3Ed__18_MoveNext_mC7F004F9046C046354CB1A5B2FB68CDFD5A0FC3F,
+	U3CRotateWallSmoothlyU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m56F6B7B11BF359158A43B7BAAE0CBA52C1377745,
+	U3CRotateWallSmoothlyU3Ed__18_System_Collections_IEnumerator_Reset_m651AAD850EA14C3CA495CF52E1D9F10F4C45EFDA,
+	U3CRotateWallSmoothlyU3Ed__18_System_Collections_IEnumerator_get_Current_m2A17B8D9C64B32CEBF322D80584849BFB3A86C8D,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[27] = 
+{
+	4460,
+	4460,
+	3592,
+	3592,
+	3592,
+	4460,
+	3157,
+	4460,
+	4460,
+	4460,
+	4460,
+	3157,
+	4460,
+	3567,
+	4460,
+	4287,
+	4362,
+	4460,
+	4362,
+	3567,
+	4460,
+	4287,
+	4362,
+	4460,
+	4362,
+	6406,
+	4460,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	27,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
