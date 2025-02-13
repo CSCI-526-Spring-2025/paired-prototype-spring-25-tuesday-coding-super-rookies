@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - PlayerController
+    - TiltPlane
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -96,27 +97,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 2180}
+      Script: {instanceID: 1882}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2182}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 3096}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 4062}
+      Script: {instanceID: 3098}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4064}
     - Class: 114
-      Script: {instanceID: 4316}
+      Script: {instanceID: 4306}
     - Class: 114
-      Script: {instanceID: 5010}
+      Script: {instanceID: 4318}
     - Class: 114
-      Script: {instanceID: 5562}
+      Script: {instanceID: 5012}
     - Class: 114
-      Script: {instanceID: 5718}
+      Script: {instanceID: 5564}
     - Class: 114
-      Script: {instanceID: 6036}
+      Script: {instanceID: 5720}
+    - Class: 114
+      Script: {instanceID: 6038}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -192,6 +195,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5476bbe99074b76b7f8ed99825d0882f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TiltPlane
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -530,7 +539,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 87e91f7f73ebbfe36a2043a74327e398
+      Hash: 0e20d61ab9a6183f272ba640e9502cd0
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
